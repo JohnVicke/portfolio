@@ -1,0 +1,4 @@
+- Change colorscheme of hamburgermenu and navigation list
+- Fix layout
+- Animations for sections
+- Decide what projects to include
