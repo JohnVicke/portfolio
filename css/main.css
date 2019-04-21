@@ -126,7 +126,7 @@ li{
 
 .nav-link:hover,
 .nav-link:focus{
-  background: linear-gradient(to top, #ffe838, #fd57bf);
+  background: linear-gradient(to top, #00e4ff, #ff00f0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -156,27 +156,27 @@ li{
 }
 
 .bar{
-  background: linear-gradient(to right, #ffe838, #fd57bf);
+  background: linear-gradient(to right, #00e4ff, #ff00f0);
   width: 100%;
-  height: 4px;
+  height: 5px;
   border-radius: .8rem;
 }
 
 .bar.half{
-  width: 50%;
+  width: 40%;
 }
 
 .bar.start{
   transform-origin: right;
-  transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transition: transform 500ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
 }
 
 .open .bar.start{
-  transform: rotate(-450deg) translateX(.8rem);
+  transform: translateX(1rem);
 }
 
 .open .bar.end{
-  transform: rotate(-450deg) translateX(-.8rem);
+  transform: translateX(-1rem);
 }
 
 .bar.end{
@@ -324,7 +324,7 @@ li{
 }
 
 .icon-container i{
-  color: #ffe838;
+  color: #00e4ff;
   font-size: 5rem;
   margin: auto;
   transform: rotate(-45deg;)
