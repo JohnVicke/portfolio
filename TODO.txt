@@ -5,3 +5,4 @@
 - Fix Mobile friendly landing page
 - Background picture instead of gray Background
 - Moving landing page
+- Fix logo (extend V to fit circle)
