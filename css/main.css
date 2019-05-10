@@ -20,6 +20,14 @@ body{
   overflow-x: hidden;
 }
 
+.parallax{
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 section{
   padding: 6rem;
 }
@@ -118,7 +126,7 @@ header{
 }
 
 li{
-  margin: 0 2rem;
+  margin: 0 2.5rem;
 }
 
 .nav-link{
@@ -455,6 +463,10 @@ li{
     font-size: 1.7rem;
   }
 
+  .top-nav{
+    height: 100vh;
+  }
+
   .nav-list{
     flex-direction: column;
   }
@@ -464,7 +476,7 @@ li{
   }
 
   li{
-    margin: 2rem;
+    margin: 2.5rem;
   }
 
   .nav-link{
@@ -501,7 +513,7 @@ li{
 
 @media screen and (max-width: 680px){
   .menu-toggler{
-    top: 2rem;x
+    top: 2rem;
     right: 2rem;
   }
 
